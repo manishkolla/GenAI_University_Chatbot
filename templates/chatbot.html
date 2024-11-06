@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="static\css\chatbot.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box">
+            <!-- Chat messages will appear here -->
+            <div class="message bot-message">
+                <p><strong>Welcome to the GSU AI Chatbot!</strong></p>
+                <p>This is an AI Class Project under Dr.Yanquing Zhang</p>
+                <p>This chatbot can help answer questions about Georgia State University (GSU), on selective topics like CS/DS Departments, CAS Staff Directory, Catalogs,Degrees and Majors offered and couple more. Feel free to ask me any related questions!</p>
+                <p>How can I assist you today?</p>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <textarea id="user-input" placeholder="Type your message..." rows= "2" oninput="autoResize()"></textarea>
+            <button id="send-btn" onclick="sendMessage()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function autoResize() {
+            const textarea = document.getElementById('user-input');
+            textarea.style.height = 'auto';
+            textarea.style.height = textarea.scrollHeight + 'px';
+        }
+        // Function to send the message to the backend
+        function sendMessage() {
+            var userMessage = document.getElementById('user-input').value;
+            if (userMessage.trim() === "") return;  // Avoid empty messages
+
+            // Display user message
+            const chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML += `<div class="message user-message">${userMessage}</div>`;
+            document.getElementById('user-input').value = ''; // Clear input field
+            chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom
+
+            // Send the message to the Flask backend using Fetch API
+            fetch('/send_message', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userMessage })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display bot response
+                chatBox.innerHTML += `<div class="message bot-message">${data.reply}</div>`;
+                chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+
+</body>
+</html>

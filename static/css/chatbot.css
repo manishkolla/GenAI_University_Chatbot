@@ -1,0 +1,198 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Chat container styling */
+.chat-container {
+    width: 450px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Chat box that holds the conversation */
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-height: 450px;
+    margin-bottom: 10px;
+    border-top: 4px solid #007bff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input container for the user to type a message */
+.input-container {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #e9ecef;
+    border-radius: 12px;
+    justify-content: space-between;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px; /* Adds gap between the textarea and button */
+}
+
+/* Textarea styling for multi-line input */
+textarea {
+    width: 100%;
+    min-height: 50px;
+    max-height: 150px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #fff;
+    resize: vertical; /* Allow vertical resizing */
+    overflow-y: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button styling */
+button {
+    width: 15%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Font Awesome paper plane icon */
+button i {
+    font-size: 20px;
+}
+
+/* Text input field styling */
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+button {
+    width: 15%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Styling for individual chat messages */
+.message {
+    max-width: 70%;
+    padding: 12px;
+    border-radius: 15px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    font-size: 16px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* User's message styling (Right aligned) */
+.user-message {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}
+
+/* Bot's message styling (Left aligned) */
+.bot-message {
+    background-color: #f1f1f1;
+    color: #333;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+}
+
+/* Fade in effect for messages */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Scrollbar styling */
+.chat-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+.chat-box::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+/* Overall chat container shadow */
+.chat-container:hover {
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 600px) {
+    .chat-container {
+        width: 100%;
+        height: 90vh;
+        border-radius: 8px;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+
+    button {
+        width: 20%;
+    }
+}
