@@ -1,0 +1,163 @@
+Majors	Degrees
+Applied Linguistics, B.A./M.A.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+Applied Linguistics, M.A.	Master's, Specialist
+Applied Linguistics, Ph.D.	Ph.D., Professional Doctorate
+Applied Statistics, M.S.	Master's, Specialist
+Arabic Language and Literature, Minor	Bachelor's, Minor
+Art Education, B.F.A.	Bachelor's
+Art Education, M.A. Ed.	Master's, Specialist
+Art Education, M.A.T.	Master's, Specialist
+Art History, B.A. in Art	Bachelor's
+Art History, Dual Undergraduate/Graduate	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+Art History, M.A.	Master's, Specialist
+Art Pathway, A.A. or A.S.	Associate
+Artificial Intelligence Business Innovation, Graduate Certificate	Master's, Specialist, Graduate Certificate
+Artist Certificate, Concentration in Choral Conducting, ACERM	Master's, Specialist
+Artist Certificate, Concentration in Jazz Studies, ACERM	Master's, Specialist, Graduate Certificate
+Artist Certificate, Concentration in Orchestral Conducting, ACERM	Master's, Specialist
+Artist Certificate, Concentration in Orchestral Instrument Performance, ACERM	Master's, Specialist
+Artist Certificate, Concentration in Organ Performance, ACERM	Master's, Specialist, Graduate Certificate
+Artist Certificate, Concentration in Piano Performance, ACERM	Master's, Specialist
+Artist Certificate, Concentration in Voice Performance, ACERM	Master's, Specialist
+Artist Certificate, Concentration in Wind Band Conducting, ACERM	Master's, Specialist
+Arts Administration, B.I.S.	Bachelor's
+Asian Studies, B.I.S.	Bachelor's
+Astronomy, Ph.D.	Ph.D., Professional Doctorate
+Audiology Assistant Certificate	Associate, Bachelor's, Undergraduate Certificate
+Audiology Specialty Certificate	Master's, Specialist, Graduate Certificate
+Bachelor of Arts in Political Science	Bachelor's
+Bachelor of Interdisciplinary Studies (BIS) concentration in Arts & Sciences, Online	Bachelor's
+Bachelor of Music, Concentration in Composition, B.Mu.	Bachelor's
+Bachelor of Music, Concentration in Jazz Studies, B.Mu.	Bachelor's
+Bachelor of Music, Concentration in Music Education, B.Mu.	Bachelor's
+Bachelor of Music, Concentration in Music Performance, B.Mu.	Bachelor's
+Bachelor of Science, Concentration in Music Production & Audio Recording, B.S.	Bachelor's
+Bachelor/J.D.	Bachelor's, Dual Undergraduate/Graduate
+Biological Sciences, M.S.	Master's, Specialist
+Biological Sciences, Ph.D.	Ph.D., Professional Doctorate
+Biology Pathway, A.S.	Associate
+Biology, B.S.	Bachelor's
+Biology, B.S., Health Sciences with a concentration in Nutrition, M.S.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+Biology, B.S./M.S.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+Biology, B.S./Medical Sciences in Biology, M.S.	Bachelor's, Dual Undergraduate/Graduate
+Biomedical Science and Enterprise, B.I.S.	Bachelor's
+Biomedical Science and Enterprise, M.I.S.	Master's, Specialist
+Biostatistics Concentration, MPH	Master's, Specialist
+Birth Through Five, B.S.Ed.	Bachelor's
+Birth Through Five, Graduate Certificate	Master's, Specialist, Graduate Certificate
+Business Administration Pathway, A.S.	Associate
+Business Analytics Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Business Economics, B.B.A.	Bachelor's
+Ceramics, B.F.A.	Bachelor's
+Ceramics, M.F.A.	Master's, Specialist
+Chaplaincy Studies, Graduate Certificate	Master's, Specialist, Graduate Certificate
+Chemistry Pathway, A.S.	Associate
+Chemistry, B.S.	Bachelor's
+Chemistry, B.S./M.S.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+Chemistry, M.S.	Master's, Specialist
+Chemistry, M.S., Concentration in Chemistry Education with Teacher Certification	Master's, Specialist
+Chemistry, Ph.D.	Ph.D., Professional Doctorate
+City and Regional Planning, J.D./M.C.R.P.	Ph.D., Professional Doctorate
+Clinical Mental Health Counseling, M.S.	Master's, Specialist
+Clinical Rehabilitation Counseling, M.S.	Master's, Specialist
+Collaborative and Experiential Learning Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Commercial Real Estate, M.S.	Master's, Specialist
+Communication (Film/Video), M.A.	Master's, Specialist
+Communication Sciences and Disorders, M.S.	Master's, Specialist
+Communication Sciences and Disorders, Ph.D.	Ph.D., Professional Doctorate
+Communication Studies - Moving Image Studies, Ph.D.	Ph.D., Professional Doctorate
+Communication Studies, M.A.	Master's, Specialist
+Communication Studies, Ph.D.	Ph.D., Professional Doctorate
+Communication, Digital Media Strategies, M.A.	Master's, Specialist
+Communication, Journalism, B.A.	Bachelor's
+Communication, Speech B.A.	Bachelor's
+Curriculum and Instruction, Ed.D.	Ph.D., Professional Doctorate
+Cybersecurity for Fintech Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Cybersecurity, Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Data Science & Analytics, M.S.A.	Master's, Specialist
+Data Science and Analytics, M.S., Concentration in Big Data and Machine Learning	Master's, Specialist
+Data Science, B.S.	Bachelor's
+Data Science, Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Deaf Studies, Deaf Education Concentration, B.A.	Bachelor's
+Deaf Studies, Minor	Bachelor's, Minor
+Deaf Studies, Sign Language Interpreting Concentration, B.A.	Bachelor's
+Dental Hygiene, A.S.	Associate
+Dental Hygiene, B.S.	Bachelor's
+Digital Criminology, Minor	Minor
+Digital Filmmaking, Filmmaking Concentration, M.F.A.	Master's, Specialist
+Digital Filmmaking, Virtual Production & Visual Effects Concentration, M.F.A.	Master's, Specialist
+Digital Humanities Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Digital Innovation Concentration, Ph.D. in Business Administration	Ph.D., Professional Doctorate
+Disruptive Innovation and Entrepreneurship, Graduate Certificate	Master's, Specialist, Graduate Certificate
+English, B.A., English Education, M.A.T.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+English, B.A./M.A.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+English, M.A., Literary Studies	Master's, Specialist
+English, M.A., Rhetoric and Composition	Master's, Specialist
+English, Ph.D., Creative Writing Concentration	Ph.D., Professional Doctorate
+English, Ph.D., Literary Studies	Ph.D., Professional Doctorate
+English, Ph.D., Rhetoric and Composition	Ph.D., Professional Doctorate
+Entrepreneurship , B.B.A.	Bachelor's
+Environmental Epidemiology Concentration, MPH	Master's, Specialist
+Environmental Health Concentration, MPH	Master's, Specialist
+Environmental Health Concentration, Ph.D. in Public Health	Ph.D., Professional Doctorate
+Environmental Science, B.I.S.	Bachelor's
+Epidemiology Concentration, MPH	Master's, Specialist
+Epidemiology Concentration, Ph.D. in Public Health	Ph.D., Professional Doctorate
+ESOL Endorsement	Master's, Specialist, Endorsement
+Event Management Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Executive MBA	Master's, Specialist
+Exercise Science, B.S.	Bachelor's
+Hospitality Operations Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Human Learning and Development, B.I.S.	Bachelor's
+Information Systems Concentration, Ph.D. in Business Administration	Ph.D., Professional Doctorate
+Information Systems, M.S.	Master's, Specialist
+Instructional Design and Technology, Graduate Certificate	Master's, Specialist, Graduate Certificate
+Instructional Design and Technology, M.S.	Master's, Specialist
+Instructional Technology, Ph.D.	Ph.D., Professional Doctorate
+Interior Design, B.F.A.	Bachelor's
+Interior Design, M.F.A.	Master's, Specialist
+International Business Concentration, Ph.D. in Business Administration	Ph.D., Professional Doctorate
+International Business, Master of	Master's, Specialist
+International Economics and Modern Languages, B.A.	Bachelor's
+Japanese, Minor	Bachelor's, Minor
+Journalism Pathway, A.A.	Associate
+Juris Doctor (J.D.)	Ph.D., Professional Doctorate
+K-5 Mathematics Endorsement	Master's, Specialist, Endorsement
+Kinesiology and Health -- Exercise Science Pathway, A.S.	Associate
+Kinesiology and Health -- Health Coach Pathway, A.S.	Associate
+Philosophy, B.A.	Bachelor's
+Philosophy, B.A., Pre-Law Concentration	Bachelor's
+Philosophy, M.A.	Master's, Specialist
+Philosophy, Politics and Economics, B.I.S.	Bachelor's
+Philosophy, Politics, and Economics, M.I.S.	Master's, Specialist
+Photography, B.F.A.	Bachelor's
+Photography, M.F.A.	Master's, Specialist
+Physical Therapy, D.P.T.	Ph.D., Professional Doctorate
+Physics Pathway, A.S.	Associate
+Physics, B.S.	Bachelor's
+Physics, M.S.	Master's, Specialist
+Physics, Ph.D.	Master's, Specialist
+Planning and Economic Development, Graduate Certificate	Master's, Specialist, Graduate Certificate
+Policy Analytics Graduate Certificate	Master's, Specialist, Graduate Certificate
+Political Science Pathway, A.A.	Associate
+Political Science, B.A./M.A.	Bachelor's, Dual Undergraduate/Graduate, Master's, Specialist
+Political Science, M.A. - Concentrations in General Political Science, American Politics, International and Comparative Politics, or Public Law	Master's, Specialist
+Political Science, M.A. - Concentration in Political Science for Educators	Master's, Specialist
+Special Education, M.A.T.	Master's, Specialist
+Special Education, M.Ed.	Master's, Specialist
+Speech Communication Pathway, A.A.	Associate
+Sport Administration, B.I.S.	Bachelor's
+Sport Administration, M.S.	Master's, Specialist
+Sport Management Pathway, A.S.	Associate
+STEM Education, Post-Baccalaureate Certificate	Master's, Specialist, Graduate Certificate
+Studio, B.A. in Art	Bachelor's
+Supply Chain Management, M.S.	Master's, Specialist
+Teaching and Learning, Ph.D.	Ph.D., Professional Doctorate
+Teaching English as a Foreign Language (TEFL), Undergraduate Certificate	Bachelor's
+Teaching English to Speakers of Other Languages (TESOL), Graduate Certificate	Master's, Specialist, Graduate Certificate
+Technical and Professional Communication Undergraduate Certificate	Bachelor's, Undergraduate Certificate
+Textiles, B.F.A.	Bachelor's
+Textiles, M.F.A.	Master's, Specialist
+Theatre (Design or Performance), B.I.S.	Bachelor's
+Theatre Pathway, A.A.	Associate
+Tier I Educational Leadership, M.Ed.	Master's, Specialist

@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, render_template
+from crag import answer
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,7 +13,8 @@ def send_message():
     
     # For simplicity, we're sending a static response.
     # You can replace this with any logic, such as querying a database or calling a chatbot API.
-    bot_reply = "You said: " + user_message  # Simple echo for demonstration
+    reply= answer(user_message)
+    bot_reply = reply  # Simple echo for demonstration
     
     return jsonify({'reply': bot_reply})
 
