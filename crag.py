@@ -12,6 +12,23 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from heapq import nlargest
 from config import GEMINI_API, BING_API
 import nltk
+import nltk
+
+# Define a function to check and download each resource if necessary
+def download_nltk_resource(resource_name):
+    try:
+        nltk.data.find(f"tokenizers/{resource_name}" if resource_name == "punkt" else f"corpora/{resource_name}")
+        print(f"{resource_name} is already installed.")
+    except LookupError:
+        print(f"{resource_name} not found. Downloading...")
+        nltk.download(resource_name)
+
+# List of resources to check and download if missing
+resources = ['stopwords', 'punkt', 'wordnet', 'punkt_tab']
+
+for resource in resources:
+    download_nltk_resource(resource)
+
 # nltk.download('stopwords')
 # nltk.download('punkt')
 # nltk.download('wordnet')
@@ -160,7 +177,6 @@ You will be provided with a query and a list of reference texts. Here are the do
         print(e)
         classifications= response.text
         print(classifications)
-        print("82365---------4723647923677327467")
     # print(classifications)
     reference_dict = {item['file_name']: item['text'] for item in reference_text}
 
@@ -313,8 +329,9 @@ for txt_file in txt_files:
     create_and_store_index(text, txt_file)
 
 
-
+history=[]
 def answer(query):
+    global history
     top_results = search_query(query, indices, doc_texts, model)
     print(len(top_results))
     classification= corrective_rag(query,top_results )
@@ -326,8 +343,10 @@ def answer(query):
     #print(classification)
     ai_model = genai.GenerativeModel('models/gemini-1.5-flash', 
                                     system_instruction=prompt.format(reference_text=classification))
-
-    response = ai_model.generate_content(query)
+    chat=ai_model.start_chat(history=history)
+    history.append({'role':'user', 'parts':query})
+    response = chat.send_message(query)
+    history.append({'role':'model', 'parts':response.text})
     print(response.text)
     return response.text
 
