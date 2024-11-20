@@ -339,7 +339,7 @@ def answer(query):
     # Top result text for sending to Gemini bot
     if top_results:
         top_result_text = top_results[0]['text']
-    
+    print("Got the Reference Text")
     #print(classification)
     ai_model = genai.GenerativeModel('models/gemini-1.5-flash', 
                                     system_instruction=prompt.format(reference_text=classification))
