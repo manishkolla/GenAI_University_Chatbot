@@ -38,5 +38,5 @@ for i in range(1,10):
 # dictio={"Majors", majors_list}
 df=pd.DataFrame({"Majors": majors_list, "Degrees": degree_list})
 print(df)
-df.to_csv(r"C:\Users\mkolla1\OneDrive - Georgia State University\Desktop\Fall 2024\AI\Project\data\majors.txt", sep='\t', index=False)
+df.to_csv(r"data/majors.txt", sep='\t', index=False)
 
