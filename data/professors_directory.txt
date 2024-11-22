@@ -253,6 +253,7 @@ Dicker, Brennen, Creative Media Industries Institute, Executive Director, bdicke
 Diem, Jeremy, Geosciences, Professor, jdiem@gsu.edu, 404-413-5770
 Dillard, Chad, , Assistant Vice President of Development, cdillard@gsu.edu, 404-413-5739
 Ding, Yi, Computer Science, Assistant Professor, yiding@gsu.edu, 
+Yanqing Zhang, Professor,Computer Science, Neuroscience, yzhang@cs.gsu.edu, 404-413-5733
 Ding, Zufeng, Biology, Associate Professor, zding7@gsu.edu, 
 Dix, Richard, Biology, Neuroscience, Professor Professor, rdix@gsu.edu, 404-413-5410
 Dixon, Dabney, Chemistry, Professor; STEM Director, ddixon@gsu.edu, 404-413-5508
