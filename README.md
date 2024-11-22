@@ -88,6 +88,19 @@ Once the application starts, it will display a local URL (usually `http://127.0.
 
 ---
 
+### **8. Test the Application**
+You can test the application by interacting with it through the web interface or API (depending on the implementation).
+
+- Open the URL shown in the terminal (e.g., `http://127.0.0.1:5000/`) in your browser.  
+- Ask questions related to **Computer Science (CS)**, **Data Science departments**, or the **directory**. For example:
+  - "What is the role of the CS department?"
+  - "Can you provide information about the Data Science program?"
+  - "Who is the head of the CS department?"
+  - "Can you find a contact in the directory?"
+- The application should respond with the relevant information or provide helpful answers based on its functionality.
+
+---
+
 ### **Optional: Deactivate the Virtual Environment**
 Once done, deactivate the virtual environment using:  
 ```bash
