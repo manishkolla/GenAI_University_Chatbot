@@ -1,6 +1,5 @@
 # A New Generative Approach to Optimize the Network and Server Load of Websites (University Chatbot)
 
-
 # **Application Manual**
 
 This manual provides step-by-step instructions to set up and run the University Chatbot application locally.
