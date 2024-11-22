@@ -94,9 +94,4 @@ Once done, deactivate the virtual environment using:
 deactivate
 ```
 
----
 
-This manual should help users set up and run your Flask application smoothly.
-``` 
-
-You can copy and paste this into a `README.md` file or any Markdown editor!
