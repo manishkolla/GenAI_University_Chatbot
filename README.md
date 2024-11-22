@@ -1,4 +1,4 @@
-# A-New-generative-Approach-to-Optimize-the-Network-and-Server-Load-of-Websites Manual
+# A New Generative Approach to Optimize the Network and Server Load of Websites
 
 
 # **Application Manual**
