@@ -13,7 +13,7 @@ This manual provides step-by-step instructions to set up and run the University 
 ### 1. **Clone the Repository**
 Use the following command to clone the repository from your Git hosting platform (e.g., GitHub):  
 ```bash
-git clone <repository-url>
+git clone https://github.com/manishkolla/GenAI_University_Chatbot
 ```
 
 ### 2. **Navigate to the Project Directory**
