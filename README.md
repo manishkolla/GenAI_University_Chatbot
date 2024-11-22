@@ -1,6 +1,6 @@
 # A-New-generative-Approach-to-Optimize-the-Network-and-Server-Load-of-Websites Manual
 
-```markdown
+
 # **Application Manual**
 
 This manual provides step-by-step instructions to set up and run the University Chatbot application locally.
