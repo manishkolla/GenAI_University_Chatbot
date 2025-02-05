@@ -1,3 +1,4 @@
+# Code to fetch all the majors and degrees from the GSU website and save them to a text file.
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
