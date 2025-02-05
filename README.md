@@ -7,11 +7,36 @@
 This manual provides step-by-step instructions to set up and run the University Chatbot application locally.
 
 ---
+Here's the updated version of the **Prerequisites** section with steps to check for Python and Visual Studio Code installations, and install them if necessary:
+
 ## **Prerequisites**
 
 Before running the application, ensure you have the following:
 
-1. **Gemini API Key**  
+1. **Python Installation**  
+   The application requires Python. To check if Python is installed, run the following command in your terminal or command prompt:
+   ```bash
+   python --version
+   ```
+   If Python is not installed, follow these steps to install it:
+   - Download Python from the official [Python website](https://www.python.org/downloads/).
+   - Run the installer and make sure to check the box that says **Add Python to PATH** during the installation process.
+   - After installation, confirm Python is installed by running:
+   ```bash
+   python --version
+   ```
+
+2. **Visual Studio Code (VS Code)**  
+   Visual Studio Code is recommended as the code editor for this application. To check if VS Code is installed, run the following command in your terminal:
+   ```bash
+   code --version
+   ```
+   If VS Code is not installed, follow these steps to install it:
+   - Download the installer for your operating system from the official [VS Code website](https://code.visualstudio.com/Download).
+   - Run the installer and follow the prompts to complete the installation.
+   - Once installed, you can open VS Code by typing `code` in the terminal.
+
+3. **Gemini API Key**  
    The Gemini API key is required for interacting with Generative AI. Follow these steps to obtain one:
    - Login to the [Gemini AI Studio](https://aistudio.google.com/).
    - Sign in with your account or create a new one.
@@ -19,7 +44,7 @@ Before running the application, ensure you have the following:
    - Generate a new API key and copy it.  
      *Note: Save the key securely as it will be used in the application.*
 
-2. **Bing Search API Key**  
+4. **Bing Search API Key**  
    The Bing Search API key is required for integrating web search functionality. Follow these steps to obtain one:
    - Visit the [Microsoft Azure Portal](https://portal.azure.com/).
    - Sign in with your Microsoft account or create a new one.
@@ -27,18 +52,17 @@ Before running the application, ensure you have the following:
    - Set up a new resource for Bing Search and navigate to the **Keys and Endpoint** section.
    - Copy one of the provided API keys.  
      *Note: Save the key securely as it will be used in the application.*
-3. **Create the `config.py` File**
-To securely store your API keys, create a `config.py` file in the project directory and add the following code:  
 
-```python
-# config.py
-GEMINI_API = "YOUR_API_KEY_HERE"
-BING_API = "YOUR_API_KEY_HERE"
-```
+5. **Create the `config.py` File**  
+   To securely store your API keys, create a `config.py` file in the project directory and add the following code:
+   ```python
+   # config.py
+   GEMINI_API = "YOUR_API_KEY_HERE"
+   BING_API = "YOUR_API_KEY_HERE"
+   ```
 
-- Replace `"YOUR_API_KEY_HERE"` with your actual **Gemini API Key** and **Bing API Key**.
-- Save this file in the same directory as your main application script (`app.py`).
-
+   - Replace `"YOUR_API_KEY_HERE"` with your actual **Gemini API Key** and **Bing API Key**.
+   - Save this file in the same directory as your main application script (`app.py`).
 ---
 ## **Steps to Run the Application**
 
