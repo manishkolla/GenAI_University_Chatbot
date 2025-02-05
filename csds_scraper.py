@@ -22,9 +22,9 @@ urls_to_scrape = [
     "https://csds.gsu.edu/undergraduate-research/"
 ]
 
-# Set up Selenium (Chrome)
+# Set up Selenium WebDriver options
 chrome_options = Options()
-chrome_options.add_argument("--headless")  # Run Chrome in headless mode
+chrome_options.add_argument("--headless")  # Run Chrome in headless mode (without UI)
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
@@ -32,48 +32,48 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 service = Service("chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
-# Function to extract visible text
+# Function to extract visible text from the page
+# Removes script and style elements before extracting text
 def extract_visible_text(soup):
     for script in soup(["script", "style"]):
-        script.decompose()
-    visible_text = soup.get_text(separator=" ", strip=True)
+        script.decompose()  # Remove script and style elements
+    visible_text = soup.get_text(separator=" ", strip=True)  # Get visible text with spaces
     return visible_text
 
-# Function to extract URLs
+# Function to extract all URLs present on the page
 def extract_page_urls(soup):
     urls = []
     for link in soup.find_all('a', href=True):
-        urls.append(link['href'])
+        urls.append(link['href'])  # Collect all href attributes (links)
     return urls
 
-# Open the output file for writing
+# Open the output file to store scraped data
 with open('gsu_webpages_data.txt', 'w', encoding='utf-8') as file:
     for url in urls_to_scrape:
-        # Load each URL
-        driver.get(url)
+        driver.get(url)  # Load the webpage
         time.sleep(5)  # Wait for the page to fully load
 
-        # Parse the page with BeautifulSoup
+        # Parse the page content using BeautifulSoup
         soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-        # Extract visible text and URLs
+        # Extract visible text and links from the page
         visible_text = extract_visible_text(soup)
         page_urls = extract_page_urls(soup)
 
-        # Write the URL to the file
+        # Write the current URL to the file
         file.write(f"URL: {url}\n\n")
 
-        # Write the visible text to the file
+        # Write extracted visible text to the file
         file.write("Visible Text:\n")
         file.write(visible_text)
         file.write("\n\n")
 
-        # Write the URLs to the file
+        # Write extracted URLs to the file
         file.write("URLs:\n")
         file.write("\n".join(page_urls))
-        file.write("\n\n" + "="*80 + "\n\n")  # Add a separator between pages
+        file.write("\n\n" + "="*80 + "\n\n")  # Separator between pages
 
-# Close the Selenium browser session
+# Close the Selenium WebDriver session after scraping is complete
 driver.quit()
 
 print("Data successfully written to 'gsu_webpages_data.txt'")
