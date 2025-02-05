@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer
 import fitz  # PyMuPDF for PDF processing
 
 
-# Load the Sentence Transformer model
+# Loading the Sentence Transformer model
 model = SentenceTransformer('bert-base-nli-mean-tokens')
 
 # Dictionary to store FAISS indices and corresponding document texts
@@ -44,7 +44,7 @@ def create_and_store_index(text, file_name):
 def save_embeddings_to_csv(embeddings_list, csv_file="embeddings.csv"):
     # Check if embeddings_list is structured correctly
     if not embeddings_list:
-        print("No embeddings to save.")
+        print("No embeddings to save!")
         return
 
     # Convert the embeddings list into a DataFrame
