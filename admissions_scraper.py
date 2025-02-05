@@ -1,3 +1,4 @@
+#This is a scraper to fetch data from the GSU Admissions webpage
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
