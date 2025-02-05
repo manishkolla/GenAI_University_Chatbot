@@ -1,3 +1,18 @@
+"""
+This script integrates various machine learning and natural language processing (NLP) techniques to build an intelligent 
+chatbot for Georgia State University (GSU). It utilizes Google's Generative AI (google.generativeai), 
+the SentenceTransformer model for text embeddings, and FAISS for efficient similarity searches. 
+The script begins by ensuring necessary NLTK resources (such as stopwords, tokenizers, and lemmatizers) 
+are available. It defines preprocessing steps like text normalization, tokenization, stopword 
+removal, and lemmatization, followed by summarization using TF-IDF ranking. The chatbot, 
+configured with predefined prompts, leverages the Gemini API for responses and integrates 
+Bing Search for external references. A key function, corrective_rag, refines retrieved text 
+relevance by classifying it as Correct, Ambiguous, or Wrong, generating JSON-formatted output. 
+Additionally, the script includes a convert_to_chunks function to tokenize large text inputs efficiently. 
+This setup enables the chatbot to provide accurate university-related responses by retrieving, 
+summarizing, and refining information dynamically.
+"""
+
 import google.generativeai as genai
 from sentence_transformers import SentenceTransformer
 import faiss
