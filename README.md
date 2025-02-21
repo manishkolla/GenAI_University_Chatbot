@@ -1,5 +1,5 @@
 # A New Generative Approach to Optimize the Network and Server Load of Websites (University Domanin Chatbot)
-### Project submitted to Dr. Yanqing Zhang for Artificial Intelligence (CS4810)
+### Project submitted to Dr. Yanqing Zhang for Artificial Intelligence (CS4810) 
 ### Authors: Manish Kolla & Ritesh Dumpala
 
 # **Application Manual**
